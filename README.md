@@ -1,4 +1,4 @@
-# AngularJS_Task3_gulp
+# AngularJS_Task4-5
 
 Aliaksandr Kamianchuk. 
 npm start или gulp start -запуск сервера и build проекта.
