@@ -1,0 +1,21 @@
+<div class = "container">
+    <div class="row contactsHeader">
+        <div class="col-md-3">
+            <span class="contactsHeader-col">Name</span>
+        </div>
+        <div class="col-md-3">
+            <span class="contactsHeader-col">Phone</span>
+        </div>
+        <div class="col-md-3">
+            <span class="contactsHeader-col">Email</span>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <div class="row" ng-repeat="contact in processedItems | searchFilter: filter | orderBy: 'name' track by contact.name">
+         <contact item="contact"
+                  delete-contact="removeContact(contact['name'])"
+                  contact-color
+                  name = {{contact['name']}}>
+         </contact>
+    </div>
+</div>

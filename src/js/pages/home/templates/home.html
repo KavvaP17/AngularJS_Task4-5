@@ -1,0 +1,12 @@
+<div class='home'>
+    <h2>Home</h2>
+    <div class = "row add-serch">
+        <a class="btn btn-success col-md-3" ui-sref='addContact'>Add new contact</a>
+        <div class = "col-md-offset-6 col-md-3">
+            <search val="filterValue"></search>
+        </div>
+    </div>
+    <div class = "items-list">
+        <contacts-list contacts="contactsList" filter="filterValue"></contacts-list>
+    </div>
+</div>

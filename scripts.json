@@ -1,0 +1,20 @@
+[
+    "./src/js/app.js",
+    "./src/js/common/configs/moduleConfig.js",
+    "./src/js/pages/home/routing.js",
+    "./src/js/pages/contactAdd/routing.js",
+    "./src/js/pages/contactEdit/routing.js",
+    "./src/js/common/services/ContactListService.js",
+    "./src/js/common/services/HelpersService.js",
+    "./src/js/common/services/ValidationService.js",
+    "./src/js/common/directives/search/search.js",
+    "./src/js/common/directives/contactsList/contactsList.js",
+    "./src/js/common/directives/contactsList/ContactsListCtrl.js",
+    "./src/js/common/directives/contact/contact.js",
+    "./src/js/common/directives/contact/ContactCtrl.js",
+    "./src/js/common/directives/contactColor/contactColor.js",
+    "./src/js/pages/home/filters/searchFilter.js",
+    "./src/js/pages/home/controllers/HomeCtrl.js",
+    "./src/js/pages/contactAdd/controllers/ContactAddCtrl.js",
+    "./src/js/pages/contactEdit/controllers/ContactEditCtrl.js"
+]
