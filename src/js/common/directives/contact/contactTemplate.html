@@ -3,7 +3,7 @@
     <div class="col-md-3">{{::item.phone}}</div>
     <div class="col-md-3">{{::item.email}}</div>
     <div class="col-md-3">
-        <a ng-href='#/edit/{{item.name}}' class="btn btn-success">Edit</a>
+        <a ng-href='{{getEditUrl(item.name)}}' class="btn btn-success">Edit</a>
         <a ui-sref='home' class="btn btn-danger" ng-click="deleteContact()">Delete</a>
     </div>
 </div>

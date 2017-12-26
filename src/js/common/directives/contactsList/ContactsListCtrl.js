@@ -4,5 +4,5 @@ angular.module('contactListModule')
         $scope.removeContact = ContactListService.removeContact;
         $scope.$watch('contacts',function(newVal,oldVal){
             $scope.processedItems = HelpersService.objToArray(newVal);
-        },true)
+        },true);
     }])
